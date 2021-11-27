@@ -35,8 +35,6 @@ const Recipie = () => {
 								<th>Ingredient</th>
 								<th>Measure</th>
 							</tr>
-							
-							
 						</thead>
 						<tbody>
 							{Object.keys(recipe).map((key) => {
@@ -55,7 +53,7 @@ const Recipie = () => {
 
 					{recipe.strYoutube ? (
 						<div className='row'>
-							<h5 style={{margin: '50px 0 30px'}}>Video Recipe</h5>
+							<h5 style={{ margin: '50px 0 30px' }}>Video Recipe</h5>
 							<iframe
 								title={id}
 								src={`https://www.youtube.com/embed/${recipe.strYoutube.slice(

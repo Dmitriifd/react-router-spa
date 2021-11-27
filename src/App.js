@@ -13,7 +13,7 @@ import { Recipie } from './pages/Recipie';
 function App() {
 	return (
 		<>
-      <Router basename='/react-router-spa'>
+			<Router basename='/react-router-spa'>
 				<Header />
 				<main className='container content'>
 					<Routes>
@@ -21,7 +21,7 @@ function App() {
 						<Route path='/about' element={<About />} />
 						<Route path='/contacts' element={<Contact />} />
 						<Route path='/category/:name' element={<Category />} />
-            <Route path='/meal/:id' element={<Recipie />} />
+						<Route path='/meal/:id' element={<Recipie />} />
 						<Route path='*' element={<NotFound />} />
 					</Routes>
 				</main>
