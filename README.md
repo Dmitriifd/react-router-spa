@@ -1,3 +1,3 @@
 
-Project [Demo](https://github.com/Dmitriifd/react-router-spa).
+Project [Demo](https://dmitriifd.github.io/react-router-spa/).
 
