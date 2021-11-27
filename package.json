@@ -2,7 +2,7 @@
 	"name": "react-spa",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://github.com/Dmitriifd/react-router-spa",
+	"homepage": "https://dmitriifd.github.io/react-router-spa/",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.15.1",
 		"@testing-library/react": "^11.2.7",

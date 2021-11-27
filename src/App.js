@@ -13,7 +13,7 @@ import { Recipie } from './pages/Recipie';
 function App() {
 	return (
 		<>
-			<Router>
+      <Router basename='/react-router-spa'>
 				<Header />
 				<main className='container content'>
 					<Routes>
