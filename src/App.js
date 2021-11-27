@@ -11,6 +11,7 @@ import {
 import { About } from './pages/About'
 import { Home } from './pages/Home'
 import { Contact } from './pages/Contact'
+import { Movie } from './pages/Movie'
 import { NotFound } from './pages/NotFound'
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
             <Route exac path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contacts" element={<Contact />} />
+            <Route path="/movies/:id" element={<Movie />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
